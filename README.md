@@ -1,0 +1,5 @@
+# Music-Player
+
+The Android platform provides resources for handling media playback, which your apps can use to create an interface between the user and their music files. We will create a basic music player application for Android. The app will present a list of songs on the user device, so that the user can select songs to play. The app will also present controls for interacting with playback and will continue playing when the user moves away from the app, with a notification displayed while playback elapses.
+We will use an Adapter instance to present the songs in a list view, starting playback when the user taps an item from the list.
+Building the music player will involve using the ContentResolver and Cursor classes to retrieve songs on the device, the MediaPlayer class to play audio and the MediaController class to control playback and also implement functions to skip forward and back, and include a shuffle function. We will also use a Service instance to play audio when the user is not directly interacting with the app.
